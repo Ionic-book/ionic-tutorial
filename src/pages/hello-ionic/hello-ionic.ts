@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: 'hello-ionic.html'
 })
 export class HelloIonicPage {
+  title:string = 'タスク登録';
+  tasks: { name:string }[] = [
+      { name: 'タスク１' },
+      { name: 'タスク２' },
+  ];
   constructor() {
 
   }
